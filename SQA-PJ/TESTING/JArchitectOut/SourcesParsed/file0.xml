@@ -1,0 +1,6 @@
+<root><type name="RootSuite" s="11"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="3" >
+<annotations>
+<annotation name="RunWith"/>
+<annotation name="Suite.SuiteClasses"/>
+</annotations><method name="setUpClass()" s="19" e="21" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="BeforeClass"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="tearDownClass()" s="23" e="25" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="AfterClass"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="setUp()" s="27" e="29" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="Before"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="tearDown()" s="31" e="33" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="After"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

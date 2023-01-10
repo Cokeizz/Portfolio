@@ -1,0 +1,41 @@
+<root><type name="model.DataBase" s="12"  vis="public"  kind="class"  dep ="false" fin ="true" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="instance" s="20" type="model.DataBase" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="exists" s="24" type="boolean" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="serialVersionUID" s="28" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="players" s="32" type="java.util.HashMap" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="games" s="36" type="java.util.HashSet" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="facts" s="40" type="java.lang.String[]" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="rules" s="66" type="java.lang.String[]" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<method name="DataBase()" s="91" e="96" cons ="true" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><dm p="java.util.HashMap" s="HashMap&lt;String,Player&gt;()"/>
+<dm p="java.util.HashSet" s="HashSet&lt;Game&gt;()"/>
+<dm p="model.DataBase" s="executeInput()"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="getPlayers()" s="99" e="104" n ="false" sta ="false" sync ="false" get ="true" vis="package" return="java.util.HashMap"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getGames()" s="106" e="111" n ="false" sta ="false" sync ="false" get ="true" vis="package" return="java.util.HashSet"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getFacts()" s="113" e="118" n ="false" sta ="false" sync ="false" get ="true" vis="package" return="java.lang.String[]"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getRules()" s="120" e="125" n ="false" sta ="false" sync ="false" get ="true" vis="package" return="java.lang.String[]"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setInstance(model.DataBase)" s="128" e="130" n ="false" sta ="true" sync ="false" set ="true" vis="package" return="void"  signature="(model.DataBase)"><params><param type="model.DataBase"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getInstance()" s="132" e="145" n ="false" sta ="true" sync ="false" get ="true" vis="package" return="model.DataBase"  signature="()"><dm p="model.DataBase" s="executeInput()"/>
+<dm p="model.DataBase" s="DataBase()"/>
+<metrics cc="2" cm="4" vars="0" loc="6"/></method><method name="executeInput()" s="147" e="166" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="()"><dm p="java.io.FileInputStream" s="FileInputStream(java.lang.String)"/>
+<dm p="java.io.ObjectInputStream" s="ObjectInputStream(java.io.InputStream)"/>
+<dm p="model.DataBase" s="setInstance(model.DataBase)"/>
+<dm p="java.io.ObjectInputStream" s="readObject()"/>
+<dm p="java.io.ObjectInputStream" s="close()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<metrics cc="5" cm="2" vars="2" loc="10"/></method><method name="executeOutput(boolean)" s="168" e="188" n ="false" sta ="false" sync ="false" vis="package" return="void"  signature="(boolean)"><params><param type="boolean"/></params><dm p="java.io.FileOutputStream" s="FileOutputStream(java.lang.String)"/>
+<dm p="java.io.ObjectOutputStream" s="ObjectOutputStream(java.io.OutputStream)"/>
+<dm p="java.io.ObjectOutputStream" s="writeObject(java.lang.Object)"/>
+<dm p="java.io.ObjectOutputStream" s="close()"/>
+<dm p="java.io.FileOutputStream" s="close()"/>
+<dm p="java.lang.System" s="exit(int)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<metrics cc="4" cm="4" vars="2" loc="10"/></method>
+</type></root>

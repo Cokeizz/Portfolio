@@ -1,0 +1,558 @@
+<root><type name="MainFrame" s="18"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="javax.swing.JFrame"></extend></extends>
+<field name="view" s="26" type="View" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="firstTimeNameType" s="30" type="boolean" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="firstTimePassType" s="31" type="boolean" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="MainFrame(View)" s="33" e="80" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(View)"><params><param type="View"/></params><dm p="javax.swing.UIManager" s="setLookAndFeel(java.lang.String)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<dm p="java.awt.Component" s="setBackground(java.awt.Color)"/>
+<dm p="javax.swing.JFrame" s="getContentPane()"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<fm p="MainFrame" s="view"/>
+<dm p="MainFrame" s="initComponents()"/>
+<dm p="View" s="setFrameIcon(javax.swing.JFrame)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="java.awt.Window" s="setVisible(boolean)"/>
+<dm p="java.awt.Frame" s="setResizable(boolean)"/>
+<dm p="java.awt.Window" s="setLocationRelativeTo(java.awt.Component)"/>
+<dm p="java.awt.Window" s="addWindowListener(java.awt.event.WindowListener)"/>
+<dm p="MainFrame$MyWindowListener" s="MyWindowListener()"/>
+<dm p="javax.swing.JComponent" s="setOpaque(boolean)"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="65" e="72" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.awt.event.ActionEvent"/></params><dm p="java.util.EventObject" s="getSource()"/>
+<dm p="MainFrame" s="btnSubmitActionPerformed(java.awt.event.ActionEvent)"/>
+<dm p="java.util.EventObject" s="getSource()"/>
+<dm p="MainFrame" s="btnSitDownActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="3" cm="0" vars="0" loc="4"/></method><dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<metrics cc="3" cm="0" vars="1" loc="9"/></method><type name="MainFrame$MyWindowListener" s="82"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.awt.event.WindowAdapter"></extend></extends>
+<method name="windowClosing(java.awt.event.WindowEvent)" s="84" e="92" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.WindowEvent)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.awt.event.WindowEvent"/></params><dm p="javax.swing.JOptionPane" s="showConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int)"/>
+<dm p="java.lang.System" s="exit(int)"/>
+<dm p="View" s="executeSysExit(boolean)"/>
+<metrics cc="3" cm="0" vars="1" loc="5"/></method>
+</type><method name="sitDownLayout()" s="95" e="119" n ="false" sta ="false" sync ="false" vis="protected" return="void"  signature="()"><dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="model.Player" s="getImagePath()"/>
+<dm p="View" s="getCurrentPlayer()"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="View" s="getFact()"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.text.JTextComponent" s="getText()"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Game" s="getPlayer()"/>
+<dm p="View" s="getHighWinsGame()"/>
+<dm p="model.Game" s="getWins()"/>
+<dm p="View" s="getHighWinsGame()"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Game" s="getPlayer()"/>
+<dm p="View" s="getHighLosesGame()"/>
+<dm p="model.Game" s="getLoses()"/>
+<dm p="View" s="getHighLosesGame()"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Game" s="getPlayer()"/>
+<dm p="View" s="getHighScoreGame()"/>
+<dm p="model.Game" s="getScore()"/>
+<dm p="View" s="getHighScoreGame()"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<dm p="javax.swing.JComponent" s="requestFocusInWindow()"/>
+<dm p="View" s="getCurrentPlayer()"/>
+<dm p="View" s="playSound(java.lang.String)"/>
+<metrics cc="3" cm="0" vars="1" loc="18"/></method><method name="initComponents()" s="121" e="445" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><annotations><annotation name="java.lang.SuppressWarnings"/></annotations><dm p="javax.swing.JPanel" s="JPanel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JPanel" s="JPanel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JPanel" s="JPanel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JTextField" s="JTextField()"/>
+<dm p="javax.swing.JPasswordField" s="JPasswordField()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JLabel" s="JLabel(java.lang.String)"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JPanel" s="JPanel()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JFrame" s="setDefaultCloseOperation(int)"/>
+<dm p="java.awt.Window" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="Cursor(int)"/>
+<dm p="java.awt.Window" s="setMinimumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setOpaque(boolean)"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JComponent" s="setBackground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setBackground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setVerticalTextPosition(int)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setOpaque(boolean)"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JComponent" s="setBackground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setBackground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setVerticalTextPosition(int)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setOpaque(boolean)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.text.JTextComponent" s="setText(java.lang.String)"/>
+<dm p="java.awt.Component" s="addKeyListener(java.awt.event.KeyListener)"/>
+<dm p="null" s="()"/>
+<method name="keyPressed(java.awt.event.KeyEvent)" s="215" e="217" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.KeyEvent)"><params><param type="java.awt.event.KeyEvent"/></params><dm p="MainFrame" s="txtfNameKeyPressed(java.awt.event.KeyEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.text.JTextComponent" s="setText(java.lang.String)"/>
+<dm p="java.awt.Component" s="addKeyListener(java.awt.event.KeyListener)"/>
+<dm p="null" s="()"/>
+<method name="keyPressed(java.awt.event.KeyEvent)" s="223" e="225" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.KeyEvent)"><params><param type="java.awt.event.KeyEvent"/></params><dm p="MainFrame" s="txtfPasswordKeyPressed(java.awt.event.KeyEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="javax.swing.JComponent" s="setMaximumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setMinimumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setPreferredSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="java.awt.Component" s="addMouseListener(java.awt.event.MouseListener)"/>
+<dm p="null" s="()"/>
+<method name="mouseEntered(java.awt.event.MouseEvent)" s="235" e="237" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSubmitMouseEntered(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseExited(java.awt.event.MouseEvent)" s="238" e="240" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSubmitMouseExited(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mousePressed(java.awt.event.MouseEvent)" s="241" e="243" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSubmitMousePressed(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseReleased(java.awt.event.MouseEvent)" s="244" e="246" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSubmitMouseReleased(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="249" e="251" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="MainFrame" s="btnSubmitActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setPreferredSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.GroupLayout" s="GroupLayout(java.awt.Container)"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.GroupLayout" s="setHorizontalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout" s="setVerticalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="javax.swing.JComponent" s="setMaximumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setMinimumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setPreferredSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="java.awt.Component" s="addMouseListener(java.awt.event.MouseListener)"/>
+<dm p="null" s="()"/>
+<method name="mouseEntered(java.awt.event.MouseEvent)" s="306" e="308" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSitDownMouseEntered(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseExited(java.awt.event.MouseEvent)" s="309" e="311" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSitDownMouseExited(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mousePressed(java.awt.event.MouseEvent)" s="312" e="314" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSitDownMousePressed(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseReleased(java.awt.event.MouseEvent)" s="315" e="317" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="MainFrame" s="btnSitDownMouseReleased(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="320" e="322" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="MainFrame" s="btnSitDownActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.JComponent" s="setOpaque(boolean)"/>
+<dm p="javax.swing.JComponent" s="setVisible(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="332" e="334" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="MainFrame" s="btnInfoActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setHorizontalAlignment(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setToolTipText(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.GroupLayout" s="GroupLayout(java.awt.Container)"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.GroupLayout" s="setHorizontalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout" s="setVerticalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.GroupLayout" s="GroupLayout(java.awt.Container)"/>
+<dm p="javax.swing.JFrame" s="getContentPane()"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JFrame" s="getContentPane()"/>
+<dm p="javax.swing.GroupLayout" s="setHorizontalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout" s="setVerticalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="java.awt.Window" s="pack()"/>
+<metrics cc="1" cm="0" vars="2" loc="26"/></method><method name="btnSubmitActionPerformed(java.awt.event.ActionEvent)" s="447" e="475" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="javax.swing.text.JTextComponent" s="getText()"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="java.lang.String" s="valueOf(char[])"/>
+<dm p="javax.swing.JPasswordField" s="getPassword()"/>
+<dm p="java.lang.String" s="isEmpty()"/>
+<dm p="javax.swing.text.JTextComponent" s="getText()"/>
+<dm p="java.lang.String" s="isEmpty()"/>
+<dm p="java.util.Arrays" s="toString(char[])"/>
+<dm p="javax.swing.JPasswordField" s="getPassword()"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="View" s="loginProcess(java.lang.String,java.lang.String)"/>
+<dm p="javax.swing.text.JTextComponent" s="getText()"/>
+<dm p="java.lang.String" s="valueOf(char[])"/>
+<dm p="javax.swing.JPasswordField" s="getPassword()"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="java.lang.String" s="isEmpty()"/>
+<dm p="model.Player" s="getImagePath()"/>
+<dm p="View" s="getCurrentPlayer()"/>
+<dm p="PlayerImageFrame" s="PlayerImageFrame(View,MainFrame)"/>
+<dm p="java.awt.Dialog" s="setModal(boolean)"/>
+<dm p="java.awt.Dialog" s="setVisible(boolean)"/>
+<dm p="MainFrame" s="sitDownLayout()"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<metrics cc="10" cm="0" vars="1" loc="18"/></method><method name="txtfNameKeyPressed(java.awt.event.KeyEvent)" s="477" e="483" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.KeyEvent)"><params><param type="java.awt.event.KeyEvent"/></params><dm p="javax.swing.text.JTextComponent" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<metrics cc="2" cm="0" vars="0" loc="4"/></method><method name="txtfPasswordKeyPressed(java.awt.event.KeyEvent)" s="485" e="491" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.KeyEvent)"><params><param type="java.awt.event.KeyEvent"/></params><dm p="javax.swing.text.JTextComponent" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<metrics cc="2" cm="0" vars="0" loc="4"/></method><method name="btnSitDownActionPerformed(java.awt.event.ActionEvent)" s="493" e="499" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="View" s="addGame(model.Player)"/>
+<dm p="View" s="getCurrentPlayer()"/>
+<dm p="TableFrame" s="TableFrame(View,model.Game)"/>
+<dm p="java.awt.Window" s="setVisible(boolean)"/>
+<dm p="java.awt.Window" s="setVisible(boolean)"/>
+<metrics cc="1" cm="0" vars="2" loc="5"/></method><method name="btnSitDownMouseEntered(java.awt.event.MouseEvent)" s="501" e="503" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSitDownMouseExited(java.awt.event.MouseEvent)" s="505" e="507" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSubmitMouseEntered(java.awt.event.MouseEvent)" s="509" e="511" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSubmitMouseExited(java.awt.event.MouseEvent)" s="513" e="515" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSubmitMousePressed(java.awt.event.MouseEvent)" s="517" e="519" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSubmitMouseReleased(java.awt.event.MouseEvent)" s="521" e="523" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSitDownMousePressed(java.awt.event.MouseEvent)" s="525" e="527" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnSitDownMouseReleased(java.awt.event.MouseEvent)" s="529" e="531" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnInfoActionPerformed(java.awt.event.ActionEvent)" s="533" e="537" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="InfoFrame" s="InfoFrame(View)"/>
+<dm p="java.awt.Window" s="setVisible(boolean)"/>
+<metrics cc="1" cm="0" vars="1" loc="3"/></method><field name="btnInfo" s="540" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="btnSitDown" s="541" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="btnSubmit" s="542" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblBgFacts" s="543" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblBgHighscores" s="544" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblError" s="545" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblFactsText" s="546" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblFactsTitle" s="547" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblHighscoresText" s="548" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblHighscoresTitle" s="549" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblLogin" s="550" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblName" s="551" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPassword" s="552" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPlayerBank" s="553" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPlayerImage" s="554" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPlayerLoses" s="555" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPlayerName" s="556" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblPlayerWins" s="557" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblScoreBoard" s="558" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlBackground" s="559" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlFacts" s="560" type="javax.swing.JPanel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlHighscore" s="561" type="javax.swing.JPanel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlLogin" s="562" type="javax.swing.JPanel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlScoreBoard" s="563" type="javax.swing.JPanel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="txtfName" s="564" type="javax.swing.JTextField" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="txtfPassword" s="565" type="javax.swing.JPasswordField" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

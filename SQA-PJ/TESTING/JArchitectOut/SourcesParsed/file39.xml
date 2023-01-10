@@ -1,0 +1,11 @@
+<root><type name="Suit" s="2"  vis="public"  kind="enum"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4">
+<field name="Spades" s="9" type="int" vis="package"  c="0" >
+</field>
+<field name="Hearts" s="10" type="int" vis="package"  c="0" >
+</field>
+<field name="Diamonds" s="11" type="int" vis="package"  c="0" >
+</field>
+<field name="Clubs" s="12" type="int" vis="package"  c="0" >
+</field>
+
+</type></root>

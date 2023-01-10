@@ -1,0 +1,31 @@
+<root><type name="Player" s="5"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="name" s="12" type="java.lang.String" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="password" s="16" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="loginDate" s="20" type="java.util.Date" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="currentHand" s="24" type="Hand" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="imagePath" s="28" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="serialVersionUID" s="32" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Player(java.lang.String,java.lang.String)" s="37" e="49" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><fm p="Player" s="name"/>
+<fm p="Player" s="password"/>
+<fm p="Player" s="loginDate"/>
+<dm p="java.util.Date" s="Date()"/>
+<dm p="Hand" s="Hand()"/>
+<metrics cc="1" cm="5" vars="0" loc="5"/></method><method name="setPassword(java.lang.String)" s="51" e="58" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><fm p="Player" s="password"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="setLoginDate(java.util.Date)" s="60" e="67" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(java.util.Date)"><params><param type="java.util.Date"/></params><fm p="Player" s="loginDate"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="setCurrentHand(Hand)" s="69" e="76" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(Hand)"><params><param type="Hand"/></params><fm p="Player" s="currentHand"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="setImagePath(java.lang.String)" s="78" e="85" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><fm p="Player" s="imagePath"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="getName()" s="87" e="92" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.String"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getPassword()" s="94" e="99" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.String"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getLoginDate()" s="101" e="106" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.util.Date"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getCurrentHand()" s="108" e="113" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="Hand"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getImagePath()" s="115" e="120" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.String"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="equals(java.lang.Object)" s="122" e="133" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(java.lang.Object)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.Object"/></params><dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<f p="Player" s="name"/>
+<metrics cc="2" cm="4" vars="0" loc="3"/></method><method name="hashCode()" s="135" e="145" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.lang.String" s="hashCode()"/>
+<metrics cc="1" cm="4" vars="2" loc="3"/></method><method name="toString()" s="147" e="153" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.text.DateFormat" s="format(java.util.Date)"/>
+<dm p="java.text.SimpleDateFormat" s="SimpleDateFormat(java.lang.String)"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method>
+</type></root>

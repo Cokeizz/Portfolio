@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888883819269",
+    "project_id": "pj007-67796",
+    "storage_bucket": "pj007-67796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888883819269:android:1bb1b8413a31e711087d6c",
+        "android_client_info": {
+          "package_name": "com.example.chonkeaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888883819269-j05q5i69vst8842mijcrfnsf6nsd3s78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26uzO7yPXkKJKsEVbfHjDKxacvC7bhHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888883819269-j05q5i69vst8842mijcrfnsf6nsd3s78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

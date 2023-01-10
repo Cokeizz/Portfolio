@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChonKeaw</string>
+    <string name="title_location">Location</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_profile">Profile</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<root><type name="Main" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><method name="main(java.lang.String[])" s="9" e="57" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String[])"><params><param type="java.lang.String[]"/></params><dm p="Controller" s="getInstance()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method>
+</type></root>

@@ -1,0 +1,15 @@
+<root><type name="model.Card" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="value" s="9" type="int" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="suit" s="13" type="model.Suit" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="serialVersionUID" s="17" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Card(int,model.Suit)" s="22" e="31" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,model.Suit)"><params><param type="int"/><param type="model.Suit"/></params><fm p="model.Card" s="value"/>
+<fm p="model.Card" s="suit"/>
+<metrics cc="1" cm="5" vars="0" loc="2"/></method><method name="getValue()" s="33" e="38" n ="false" sta ="false" sync ="false" get ="true" vis="protected" return="int"  signature="()"><f p="model.Card" s="value"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getSuit()" s="40" e="45" n ="false" sta ="false" sync ="false" get ="true" vis="protected" return="model.Suit"  signature="()"><f p="model.Card" s="suit"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="toString()" s="47" e="100" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="16" cm="2" vars="1" loc="31"/></method>
+</type></root>

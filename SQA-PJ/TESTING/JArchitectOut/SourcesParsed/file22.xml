@@ -1,0 +1,43 @@
+<root><type name="utilities.Constants" s="2"  vis="public"  kind="class"  dep ="false" fin ="true" sta ="false" abs ="false" n ="false" c="3" >
+<field name="DEBUG" s="8" type="boolean" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="CARDS_IN_DECK" s="12" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="BLACKJACK" s="16" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="STARTING_AMOUNT" s="20" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DEALER_STAND" s="24" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DealerX" s="28" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DealerY" s="32" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="PlayerX" s="36" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="PlayerY" s="40" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DeckX" s="44" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DeckY" s="48" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="CARDS_SHUFFLE_PDISTANCE" s="52" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DECK_DEAL_FAST" s="56" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DECK_DEAL_SLOW" s="60" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="DECK_SHUFFLE_ANIMATION" s="64" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="STAND_DELAY" s="68" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="NUMBER_OF_PLAYER_IMAGES" s="72" type="int" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="BGS_ICON_PATH" s="76" type="java.lang.String" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="SHUFFLE_VIDEO_PATH" s="80" type="java.lang.String" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+<field name="INFO_ICON_PATH" s="84" type="java.lang.String" vis="public"  fin ="true" sta ="true" c="2" >
+</field>
+
+</type></root>

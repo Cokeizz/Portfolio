@@ -1,0 +1,10 @@
+<root><type name="utilities.InputChecksClass" s="4"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<method name="startWithLetter(java.lang.String)" s="11" e="19" n ="false" sta ="true" sync ="false" vis="public" return="boolean"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><dm p="java.lang.String" s="matches(java.lang.String)"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method><method name="integerTest(java.lang.String,java.lang.String)" s="21" e="36" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="java.lang.String" s="toCharArray()"/>
+<dm p="java.lang.Character" s="isDigit(char)"/>
+<dm p="exceptions.CheckIntException" s="CheckIntException(java.lang.String)"/>
+<metrics cc="3" cm="6" vars="1" loc="4"/></method><method name="lettersTest(java.lang.String,java.lang.String)" s="38" e="52" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="java.lang.String" s="toCharArray()"/>
+<dm p="java.lang.Character" s="isLetter(char)"/>
+<dm p="exceptions.CheckLettersException" s="CheckLettersException(java.lang.String)"/>
+<metrics cc="3" cm="6" vars="1" loc="4"/></method>
+</type></root>

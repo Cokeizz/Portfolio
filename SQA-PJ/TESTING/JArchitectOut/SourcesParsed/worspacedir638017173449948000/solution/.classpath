@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF - 8'?>
+                    <classpath >
+                       <classpathentry kind="src" path="BGS"/>
+<classpathentry kind="src" path="BGS"/>
+<classpathentry kind="src" path="BGS1"/>
+<classpathentry kind="src" path="BGS1"/>
+<classpathentry kind="src" path="BGS1"/>
+<classpathentry kind="src" path="BGS1"/>
+<classpathentry kind="src" path="BGS1"/>
+<classpathentry kind="src" path="BGS1"/>
+
+                       <classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/rt.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/javaws.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/jfr.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/plugin.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/charsets.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/resources.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/management-agent.jar"/>
+<classpathentry kind="lib" path="/Applications/JArchitect.app/Contents/Resources/libs/jce.jar"/>
+
+                     </classpath>

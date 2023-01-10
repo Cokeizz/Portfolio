@@ -1,0 +1,31 @@
+<root><type name="controller.Controller" s="9"  vis="public"  kind="class"  dep ="false" fin ="true" sta ="false" abs ="false" n ="false" c="4" >
+<field name="instance" s="16" type="controller.Controller" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="exists" s="20" type="boolean" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="view" s="24" type="view.View" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="model" s="28" type="model.Model" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<method name="Controller()" s="34" e="36" cons ="true" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="getInstance()" s="39" e="54" n ="false" sta ="true" sync ="false" get ="true" vis="public" return="controller.Controller"  signature="()"><dm p="model.Model" s="getInstance()"/>
+<dm p="controller.Controller" s="Controller()"/>
+<dm p="view.View" s="getInstance(controller.Controller)"/>
+<dm p="view.View" s="executeLoginView()"/>
+<metrics cc="2" cm="4" vars="0" loc="8"/></method><method name="loginProcess(java.lang.String,java.lang.String)" s="57" e="66" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="model.Model" s="loginProcess(java.lang.String,java.lang.String)"/>
+<metrics cc="1" cm="6" vars="0" loc="1"/></method><method name="addPlayer(java.lang.String,java.lang.String)" s="68" e="77" n ="false" sta ="false" sync ="false" vis="public" return="model.Player"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="model.Model" s="addPlayer(java.lang.String,java.lang.String)"/>
+<metrics cc="1" cm="6" vars="0" loc="1"/></method><method name="addGame(model.Player)" s="79" e="87" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="(model.Player)"><params><param type="model.Player"/></params><dm p="model.Model" s="addGame(model.Player)"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method><method name="deal(model.Game)" s="89" e="96" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game)"><params><param type="model.Game"/></params><dm p="model.Model" s="deal(model.Game)"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="hit(model.Game)" s="98" e="105" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game)"><params><param type="model.Game"/></params><dm p="model.Model" s="hit(model.Game)"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="isBusted(model.Game)" s="107" e="113" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(model.Game)"><params><param type="model.Game"/></params><dm p="model.Model" s="isBusted(model.Game)"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="stand(model.Game)" s="115" e="123" n ="false" sta ="false" sync ="false" vis="public" return="model.Card"  signature="(model.Game)"><params><param type="model.Game"/></params><dm p="model.Model" s="stand(model.Game)"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method><method name="whoWon(model.Game)" s="125" e="131" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(model.Game)"><params><param type="model.Game"/></params><dm p="model.Model" s="whoWon(model.Game)"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="getCurrentPlayer()" s="133" e="138" n ="false" sta ="false" sync ="false" vis="public" return="model.Player"  signature="()"><dm p="model.Model" s="getCurrentPlayer()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getFact()" s="140" e="145" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><dm p="model.Model" s="getFact()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getRules()" s="147" e="152" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String[]"  signature="()"><dm p="model.Model" s="getRules()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="orderDrink(model.Game,java.lang.String)" s="154" e="162" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game,java.lang.String)"><params><param type="model.Game"/><param type="java.lang.String"/></params><dm p="model.Model" s="orderDrink(model.Game,java.lang.String)"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method><method name="getHighScoreGame()" s="164" e="169" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><dm p="model.Model" s="getHighScoreGame()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getHighWinsGame()" s="171" e="176" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><dm p="model.Model" s="getHighWinsGame()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getHighLosesGame()" s="178" e="183" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><dm p="model.Model" s="getHighLosesGame()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="executeSysExit(boolean)" s="185" e="193" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(boolean)"><params><param type="boolean"/></params><dm p="model.Model" s="executeSysExit(boolean)"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method>
+</type></root>

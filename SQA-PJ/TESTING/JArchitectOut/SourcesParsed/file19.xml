@@ -1,0 +1,10 @@
+<root><type name="utilities.JTextFieldLimit" s="6"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="javax.swing.text.PlainDocument"></extend></extends>
+<field name="limit" s="13" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JTextFieldLimit(int)" s="15" e="18" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="utilities.JTextFieldLimit" s="limit"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="insertString(int,java.lang.String,javax.swing.text.AttributeSet)" s="20" e="29" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,java.lang.String,javax.swing.text.AttributeSet)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="int"/><param type="java.lang.String"/><param type="javax.swing.text.AttributeSet"/></params><dm p="javax.swing.text.AbstractDocument" s="getLength()"/>
+<dm p="java.lang.String" s="length()"/>
+<metrics cc="3" cm="0" vars="0" loc="4"/></method>
+</type></root>

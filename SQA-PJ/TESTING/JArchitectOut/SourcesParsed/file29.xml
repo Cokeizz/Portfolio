@@ -1,0 +1,188 @@
+<root><type name="PlayerImageFrame" s="13"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="javax.swing.JDialog"></extend></extends>
+<field name="playerImagePaths" s="20" type="java.util.ArrayList" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<dm p="java.util.ArrayList" s="ArrayList&lt;String&gt;()"/>
+<field name="playerCirlceImagePaths" s="21" type="java.util.ArrayList" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<dm p="java.util.ArrayList" s="ArrayList&lt;String&gt;()"/>
+<field name="counter" s="22" type="java.lang.Integer" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="nickNames" s="23" type="java.lang.String[]" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="view" s="27" type="View" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="mainFrame" s="28" type="MainFrame" vis="package"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="PlayerImageFrame(View,MainFrame)" s="30" e="71" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(View,MainFrame)"><params><param type="View"/><param type="MainFrame"/></params><dm p="PlayerImageFrame" s="initComponents()"/>
+<dm p="javax.swing.JDialog" s="setDefaultCloseOperation(int)"/>
+<dm p="java.awt.Window" s="setLocationRelativeTo(java.awt.Component)"/>
+<fm p="PlayerImageFrame" s="view"/>
+<fm p="PlayerImageFrame" s="mainFrame"/>
+<dm p="PlayerImageFrame" s="loadPlayers()"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="requestFocusInWindow()"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="51" e="60" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.awt.event.ActionEvent"/></params><dm p="java.util.EventObject" s="getSource()"/>
+<dm p="PlayerImageFrame" s="btnPreviousActionPerformed(java.awt.event.ActionEvent)"/>
+<dm p="java.util.EventObject" s="getSource()"/>
+<dm p="PlayerImageFrame" s="btnNextActionPerformed(java.awt.event.ActionEvent)"/>
+<dm p="java.util.EventObject" s="getSource()"/>
+<dm p="PlayerImageFrame" s="btnSubmitActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="4" cm="0" vars="0" loc="6"/></method><dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<dm p="javax.swing.KeyStroke" s="getKeyStroke(int,int,boolean)"/>
+<dm p="javax.swing.JComponent" s="registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)"/>
+<metrics cc="4" cm="0" vars="1" loc="14"/></method><method name="loadPlayers()" s="73" e="81" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><dm p="java.util.ArrayList" s="add(java.lang.Object)"/>
+<dm p="java.util.ArrayList" s="add(java.lang.Object)"/>
+<metrics cc="2" cm="2" vars="1" loc="3"/></method><method name="initComponents()" s="83" e="168" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><annotations><annotation name="java.lang.SuppressWarnings"/></annotations><dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JDialog" s="setDefaultCloseOperation(int)"/>
+<dm p="java.awt.Window" s="setAlwaysOnTop(boolean)"/>
+<dm p="java.awt.Window" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="Cursor(int)"/>
+<dm p="java.awt.Component" s="setPreferredSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="java.awt.Dialog" s="setResizable(boolean)"/>
+<dm p="java.awt.Window" s="setType(java.awt.Window$Type)"/>
+<dm p="java.awt.Component" s="addFocusListener(java.awt.event.FocusListener)"/>
+<dm p="null" s="()"/>
+<method name="focusLost(java.awt.event.FocusEvent)" s="103" e="105" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.FocusEvent)"><params><param type="java.awt.event.FocusEvent"/></params><dm p="PlayerImageFrame" s="formFocusLost(java.awt.event.FocusEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JComponent" s="setForeground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JLabel" s="setHorizontalAlignment(int)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="121" e="123" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="PlayerImageFrame" s="btnSubmitActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="java.awt.Component" s="addMouseListener(java.awt.event.MouseListener)"/>
+<dm p="null" s="()"/>
+<method name="mouseEntered(java.awt.event.MouseEvent)" s="132" e="134" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="PlayerImageFrame" s="btnNextMouseEntered(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseExited(java.awt.event.MouseEvent)" s="135" e="137" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="PlayerImageFrame" s="btnNextMouseExited(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="140" e="142" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="PlayerImageFrame" s="btnNextActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.AbstractButton" s="setBorderPainted(boolean)"/>
+<dm p="javax.swing.AbstractButton" s="setContentAreaFilled(boolean)"/>
+<dm p="java.awt.Component" s="addMouseListener(java.awt.event.MouseListener)"/>
+<dm p="null" s="()"/>
+<method name="mouseEntered(java.awt.event.MouseEvent)" s="151" e="153" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="PlayerImageFrame" s="btnPreviousMouseEntered(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="mouseExited(java.awt.event.MouseEvent)" s="154" e="156" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="PlayerImageFrame" s="btnPreviousMouseExited(java.awt.event.MouseEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="159" e="161" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="PlayerImageFrame" s="btnPreviousActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="javax.swing.JDialog" s="getContentPane()"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="java.awt.Window" s="pack()"/>
+<dm p="java.awt.Window" s="setLocationRelativeTo(java.awt.Component)"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="btnSubmitActionPerformed(java.awt.event.ActionEvent)" s="170" e="175" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="model.Player" s="setImagePath(java.lang.String)"/>
+<dm p="View" s="getCurrentPlayer()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="java.awt.Window" s="dispose()"/>
+<dm p="MainFrame" s="sitDownLayout()"/>
+<metrics cc="1" cm="0" vars="0" loc="4"/></method><method name="btnPreviousActionPerformed(java.awt.event.ActionEvent)" s="177" e="187" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<metrics cc="2" cm="0" vars="0" loc="7"/></method><method name="btnPreviousMouseEntered(java.awt.event.MouseEvent)" s="189" e="191" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnPreviousMouseExited(java.awt.event.MouseEvent)" s="193" e="195" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnNextActionPerformed(java.awt.event.ActionEvent)" s="197" e="207" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="View" s="playSound(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<metrics cc="2" cm="0" vars="0" loc="7"/></method><method name="btnNextMouseEntered(java.awt.event.MouseEvent)" s="209" e="211" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="btnNextMouseExited(java.awt.event.MouseEvent)" s="213" e="215" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.MouseEvent)"><params><param type="java.awt.event.MouseEvent"/></params><dm p="javax.swing.AbstractButton" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="formFocusLost(java.awt.event.FocusEvent)" s="217" e="219" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.FocusEvent)"><params><param type="java.awt.event.FocusEvent"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method><field name="btnNext" s="222" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="btnPrevious" s="223" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="btnSubmit" s="224" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblCharacterImage" s="225" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblCharacterName" s="226" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

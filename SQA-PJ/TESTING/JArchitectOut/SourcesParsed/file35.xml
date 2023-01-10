@@ -1,0 +1,23 @@
+<root><type name="Hand" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="cards" s="9" type="Card[]" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="nextIndex" s="13" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="soft" s="17" type="boolean" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="serialVersionUID" s="21" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Hand()" s="26" e="33" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="2" vars="0" loc="3"/></method><method name="getNextIndex()" s="35" e="40" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setNextIndex(int)" s="42" e="49" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="Hand" s="nextIndex"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="getCards()" s="51" e="56" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="Card[]"  signature="()"><f p="Hand" s="cards"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="isSoft()" s="58" e="63" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="boolean"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setSoft(boolean)" s="65" e="72" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(boolean)"><params><param type="boolean"/></params><fm p="Hand" s="soft"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="resetHand()" s="74" e="82" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="2" cm="2" vars="1" loc="3"/></method><method name="dealerHandValue()" s="84" e="115" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="Card" s="getValue()"/>
+<dm p="Card" s="getValue()"/>
+<dm p="Card" s="getValue()"/>
+<metrics cc="6" cm="2" vars="4" loc="15"/></method><method name="playerHandValue()" s="117" e="145" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="Card" s="getValue()"/>
+<dm p="Card" s="getValue()"/>
+<dm p="Card" s="getValue()"/>
+<metrics cc="6" cm="2" vars="4" loc="13"/></method><method name="setCardsDebug(Card[])" s="147" e="154" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(Card[])"><params><param type="Card[]"/></params><fm p="Hand" s="cards"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method>
+</type></root>

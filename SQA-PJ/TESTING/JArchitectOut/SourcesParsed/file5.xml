@@ -1,0 +1,5 @@
+<root><type name="exceptions.UITestException" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="java.lang.Exception"></extend></extends>
+<method name="UITestException(java.lang.String)" s="9" e="11" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

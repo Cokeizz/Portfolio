@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692263108824",
+    "project_id": "chayapplication-c5dc2",
+    "storage_bucket": "chayapplication-c5dc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692263108824:android:d65cab2ee63f1c9eac97ad",
+        "android_client_info": {
+          "package_name": "com.example.chonkeaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692263108824-3pcb68s54enr9orv4638rmtfmj9ruiv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnBFXe7sj9uZ-TH5xi0VSI3ImJEg5ru_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692263108824-3pcb68s54enr9orv4638rmtfmj9ruiv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

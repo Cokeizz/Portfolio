@@ -1,0 +1,116 @@
+<root><type name="model.Game" s="4"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="3" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="deck" s="9" type="model.Deck" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="player" s="13" type="model.Player" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<field name="dealer" s="17" type="model.Hand" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="score" s="21" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="wins" s="25" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="loses" s="29" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="round" s="33" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="serialVersionUID" s="37" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Game(model.Player)" s="42" e="54" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Player)"><params><param type="model.Player"/></params><fm p="model.Game" s="deck"/>
+<dm p="model.Deck" s="Deck()"/>
+<fm p="model.Game" s="player"/>
+<dm p="model.Hand" s="Hand()"/>
+<metrics cc="1" cm="3" vars="0" loc="7"/></method><method name="getWins()" s="56" e="61" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setWins(int)" s="63" e="69" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="model.Game" s="wins"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="getLoses()" s="71" e="76" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setLoses(int)" s="78" e="84" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="model.Game" s="loses"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="getDeck()" s="86" e="91" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="model.Deck"  signature="()"><f p="model.Game" s="deck"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getPlayer()" s="93" e="98" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="model.Player"  signature="()"><f p="model.Game" s="player"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getDealer()" s="100" e="105" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="model.Hand"  signature="()"><f p="model.Game" s="dealer"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getScore()" s="107" e="112" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setScore(int)" s="114" e="120" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="model.Game" s="score"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="getRound()" s="122" e="127" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setRound(int)" s="129" e="135" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(int)"><params><param type="int"/></params><fm p="model.Game" s="round"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="resetGame()" s="137" e="144" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="model.Hand" s="resetHand()"/>
+<dm p="model.Hand" s="resetHand()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Deck" s="shuffle()"/>
+<metrics cc="1" cm="2" vars="0" loc="3"/></method><method name="deal()" s="146" e="175" n ="false" sta ="false" sync ="false" vis="protected" return="void"  signature="()"><dm p="model.Deck" s="shuffle()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Deck" s="dealNextCard()"/>
+<dm p="model.Hand" s="getCards()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="setNextIndex(int)"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.Object)"/>
+<dm p="model.Deck" s="dealNextCard()"/>
+<dm p="model.Hand" s="getCards()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="setNextIndex(int)"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.Object)"/>
+<dm p="model.Deck" s="dealNextCard()"/>
+<dm p="model.Hand" s="getCards()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Hand" s="setNextIndex(int)"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Deck" s="dealNextCard()"/>
+<dm p="model.Hand" s="getCards()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Hand" s="setNextIndex(int)"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.Object)"/>
+<metrics cc="1" cm="2" vars="1" loc="20"/></method><method name="hit()" s="177" e="188" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="model.Deck" s="dealNextCard()"/>
+<dm p="model.Hand" s="getCards()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="setNextIndex(int)"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="getNextIndex()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.Object)"/>
+<metrics cc="2" cm="2" vars="1" loc="6"/></method><method name="isBusted()" s="190" e="202" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="()"><dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Hand" s="dealerHandValue()"/>
+<metrics cc="3" cm="2" vars="0" loc="6"/></method><method name="calculateScore()" s="204" e="214" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<metrics cc="2" cm="3" vars="0" loc="3"/></method><method name="playerWin()" s="216" e="223" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="model.Game" s="calculateScore()"/>
+<dm p="model.Game" s="resetGame()"/>
+<metrics cc="1" cm="2" vars="0" loc="3"/></method><method name="playerLose()" s="225" e="232" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="model.Game" s="calculateScore()"/>
+<dm p="model.Game" s="resetGame()"/>
+<metrics cc="1" cm="2" vars="0" loc="3"/></method><method name="whoWon()" s="234" e="257" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="()"><dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Game" s="playerLose()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Hand" s="dealerHandValue()"/>
+<dm p="model.Hand" s="playerHandValue()"/>
+<dm p="model.Player" s="getCurrentHand()"/>
+<dm p="model.Hand" s="dealerHandValue()"/>
+<dm p="model.Game" s="playerWin()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<dm p="model.Game" s="playerLose()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="model.Player" s="getName()"/>
+<metrics cc="7" cm="2" vars="0" loc="14"/></method><method name="stand()" s="259" e="265" n ="false" sta ="false" sync ="false" vis="public" return="model.Card"  signature="()"><dm p="model.Deck" s="dealNextCard()"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="setDealerDebug(model.Hand)" s="267" e="273" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Hand)"><params><param type="model.Hand"/></params><fm p="model.Game" s="dealer"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method>
+</type></root>

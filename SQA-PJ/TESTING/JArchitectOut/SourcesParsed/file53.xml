@@ -1,0 +1,25 @@
+<root><type name="model.Deck" s="5"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="cardDeck" s="12" type="model.Card[]" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="numOfCard" s="16" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="nextCardIndex" s="20" type="int" vis="private"  fin ="false" sta ="false" c="2" >
+</field>
+<field name="serialVersionUID" s="24" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Deck()" s="29" e="62" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="model.Card" s="Card(int,model.Suit)"/>
+<metrics cc="7" cm="2" vars="4" loc="17"/></method><method name="getCardDeck()" s="64" e="69" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="model.Card[]"  signature="()"><f p="model.Deck" s="cardDeck"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getNumOfCard()" s="71" e="76" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><f p="model.Deck" s="numOfCard"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getNextCardIndex()" s="78" e="83" n ="false" sta ="false" sync ="false" get ="true" vis="protected" return="int"  signature="()"><f p="model.Deck" s="nextCardIndex"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="setNumOfCard(int)" s="85" e="90" n ="false" sta ="false" sync ="false" set ="true" vis="protected" return="void"  signature="(int)"><params><param type="int"/></params><fm p="model.Deck" s="numOfCard"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="dealNextCard()" s="92" e="99" n ="false" sta ="false" sync ="false" vis="protected" return="model.Card"  signature="()"><metrics cc="1" cm="2" vars="1" loc="3"/></method><method name="shuffle()" s="101" e="116" n ="false" sta ="false" sync ="false" vis="protected" return="void"  signature="()"><dm p="java.util.Random" s="Random()"/>
+<dm p="java.util.Random" s="nextInt(int)"/>
+<metrics cc="2" cm="2" vars="4" loc="8"/></method><method name="toString()" s="118" e="135" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.lang.System" s="getProperty(java.lang.String)"/>
+<dm p="java.lang.String" s="valueOf(int)"/>
+<dm p="model.Deck" s="getCardDeck()"/>
+<dm p="java.lang.String" s="valueOf(int)"/>
+<dm p="model.Deck" s="getCardDeck()"/>
+<metrics cc="3" cm="0" vars="3" loc="8"/></method>
+</type></root>

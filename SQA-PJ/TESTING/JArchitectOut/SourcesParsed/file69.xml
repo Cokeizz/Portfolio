@@ -1,0 +1,106 @@
+<root><type name="view.InfoFrame" s="13"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="javax.swing.JFrame"></extend></extends>
+<field name="view" s="20" type="view.View" vis="private"  fin ="true" sta ="false" c="2" >
+</field>
+<method name="InfoFrame(view.View)" s="25" e="36" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(view.View)"><params><param type="view.View"/></params><fm p="view.InfoFrame" s="view"/>
+<dm p="view.InfoFrame" s="initComponents()"/>
+<dm p="java.awt.Window" s="setLocationRelativeTo(java.awt.Component)"/>
+<dm p="javax.swing.text.JTextComponent" s="setEditable(boolean)"/>
+<dm p="javax.swing.JFrame" s="setIconImage(java.awt.Image)"/>
+<dm p="java.awt.Toolkit" s="getImage(java.net.URL)"/>
+<dm p="java.awt.Toolkit" s="getDefaultToolkit()"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="java.awt.Component" s="setCursor(java.awt.Cursor)"/>
+<dm p="java.awt.Cursor" s="getPredefinedCursor(int)"/>
+<metrics cc="1" cm="3" vars="0" loc="6"/></method><method name="initComponents()" s="38" e="114" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><annotations><annotation name="java.lang.SuppressWarnings"/></annotations><dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JScrollPane" s="JScrollPane()"/>
+<dm p="javax.swing.JTextArea" s="JTextArea()"/>
+<dm p="javax.swing.JPanel" s="JPanel()"/>
+<dm p="javax.swing.JLabel" s="JLabel()"/>
+<dm p="javax.swing.JButton" s="JButton()"/>
+<dm p="javax.swing.JFrame" s="setDefaultCloseOperation(int)"/>
+<dm p="java.awt.Frame" s="setResizable(boolean)"/>
+<dm p="java.awt.Window" s="setType(java.awt.Window$Type)"/>
+<dm p="javax.swing.JComponent" s="setBackground(java.awt.Color)"/>
+<dm p="java.awt.Color" s="Color(int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JLabel" s="setText(java.lang.String)"/>
+<dm p="javax.swing.text.JTextComponent" s="setEditable(boolean)"/>
+<dm p="javax.swing.JTextArea" s="setColumns(int)"/>
+<dm p="javax.swing.JTextArea" s="setFont(java.awt.Font)"/>
+<dm p="java.awt.Font" s="Font(java.lang.String,int,int)"/>
+<dm p="javax.swing.JTextArea" s="setLineWrap(boolean)"/>
+<dm p="javax.swing.JTextArea" s="setRows(int)"/>
+<dm p="javax.swing.text.JTextComponent" s="setText(java.lang.String)"/>
+<dm p="java.util.Arrays" s="toString(java.lang.Object[])"/>
+<dm p="view.View" s="getRules()"/>
+<dm p="javax.swing.JTextArea" s="setWrapStyleWord(boolean)"/>
+<dm p="javax.swing.JComponent" s="setAutoscrolls(boolean)"/>
+<dm p="javax.swing.text.JTextComponent" s="setMargin(java.awt.Insets)"/>
+<dm p="java.awt.Insets" s="Insets(int,int,int,int)"/>
+<dm p="javax.swing.JComponent" s="setMaximumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setMinimumSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JComponent" s="setPreferredSize(java.awt.Dimension)"/>
+<dm p="java.awt.Dimension" s="Dimension(int,int)"/>
+<dm p="javax.swing.JScrollPane" s="setViewportView(java.awt.Component)"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JLabel" s="setIcon(javax.swing.Icon)"/>
+<dm p="javax.swing.ImageIcon" s="ImageIcon(java.net.URL)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javax.swing.JComponent" s="setToolTipText(java.lang.String)"/>
+<dm p="javax.swing.JComponent" s="setAlignmentY(float)"/>
+<dm p="javax.swing.JLabel" s="setIconTextGap(int)"/>
+<dm p="java.awt.Container" s="add(java.awt.Component)"/>
+<dm p="java.awt.Component" s="setBounds(int,int,int,int)"/>
+<dm p="javax.swing.AbstractButton" s="setText(java.lang.String)"/>
+<dm p="javax.swing.AbstractButton" s="addActionListener(java.awt.event.ActionListener)"/>
+<dm p="null" s="()"/>
+<method name="actionPerformed(java.awt.event.ActionEvent)" s="85" e="87" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="view.InfoFrame" s="btnCloseActionPerformed(java.awt.event.ActionEvent)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><dm p="javax.swing.GroupLayout" s="GroupLayout(java.awt.Container)"/>
+<dm p="javax.swing.JFrame" s="getContentPane()"/>
+<dm p="java.awt.Container" s="setLayout(java.awt.LayoutManager)"/>
+<dm p="javax.swing.JFrame" s="getContentPane()"/>
+<dm p="javax.swing.GroupLayout" s="setHorizontalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addPreferredGap(javax.swing.LayoutStyle$ComponentPlacement)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout" s="setVerticalGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGroup(javax.swing.GroupLayout$Group)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addGap(int,int,int)"/>
+<dm p="javax.swing.GroupLayout$SequentialGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createSequentialGroup()"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component)"/>
+<dm p="javax.swing.GroupLayout$ParallelGroup" s="addComponent(java.awt.Component,int,int,int)"/>
+<dm p="javax.swing.GroupLayout" s="createParallelGroup(javax.swing.GroupLayout$Alignment)"/>
+<dm p="java.awt.Window" s="pack()"/>
+<metrics cc="1" cm="0" vars="1" loc="6"/></method><method name="btnCloseActionPerformed(java.awt.event.ActionEvent)" s="116" e="119" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.awt.event.ActionEvent)"><params><param type="java.awt.event.ActionEvent"/></params><dm p="view.View" s="playSound(java.lang.String)"/>
+<dm p="java.awt.Window" s="dispose()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><field name="btnClose" s="122" type="javax.swing.JButton" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="jScrollPane" s="123" type="javax.swing.JScrollPane" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblCopyrights" s="124" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="lblRulesTitle" s="125" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="pnlHeader" s="126" type="javax.swing.JPanel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="txtaRulesArea" s="127" type="javax.swing.JTextArea" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

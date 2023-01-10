@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with JArchitect v2019.2.0</Info>
+  <Info>No baseline for comparison defined.</Info>
+  <Info>Codebase parsing</Info>
+  <Info>Third Party parsing</Info>
+  <Warning>Some external used jars are not found, the external classes are added to the project named 'Missing'.
+You can specify the external jars paths from Project Properties panel =&gt; Code To Analyze tab</Warning>
+  <Info>Parsing source files using PMD.</Info>
+  <Info>Analyse dependencies of your application.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Info>Execute queries and rules.</Info>
+  <Info>JArchitect analysis done. Duration: 00:15</Info>
+  <Info>Building the report (standard).</Info>
+</InfoWarnings>

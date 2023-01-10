@@ -1,0 +1,61 @@
+<root><type name="model.Model" s="4"  vis="public"  kind="class"  dep ="false" fin ="true" sta ="false" abs ="false" n ="false" c="4" >
+<interfaces>
+<interface name="model.I_Model"/>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="instance" s="12" type="model.Model" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="exists" s="16" type="boolean" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="db" s="20" type="model.DataBase" vis="private"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="currentPlayer" s="24" type="model.Player" vis="public"  fin ="false" sta ="true" c="2" >
+</field>
+<field name="serialVersionUID" s="28" type="long" vis="private"  fin ="true" sta ="true" c="2" >
+</field>
+<method name="Model()" s="34" e="36" cons ="true" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="getInstance()" s="39" e="55" n ="false" sta ="true" sync ="false" get ="true" vis="public" return="model.Model"  signature="()"><dm p="model.DataBase" s="getInstance()"/>
+<dm p="model.DataBase" s="executeInput()"/>
+<dm p="model.Model" s="Model()"/>
+<metrics cc="3" cm="4" vars="0" loc="8"/></method><method name="executeSysExit(boolean)" s="57" e="64" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(boolean)"><params><param type="boolean"/></params><dm p="model.DataBase" s="executeOutput(boolean)"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="loginProcess(java.lang.String,java.lang.String)" s="66" e="87" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="(java.lang.String,java.lang.String)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="java.util.HashMap" s="containsKey(java.lang.Object)"/>
+<dm p="model.DataBase" s="getPlayers()"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="model.Player" s="getPassword()"/>
+<dm p="java.util.HashMap" s="get(java.lang.Object)"/>
+<dm p="model.DataBase" s="getPlayers()"/>
+<dm p="model.Player" s="setLoginDate(java.util.Date)"/>
+<dm p="java.util.HashMap" s="get(java.lang.Object)"/>
+<dm p="model.DataBase" s="getPlayers()"/>
+<dm p="java.util.Date" s="Date()"/>
+<dm p="java.util.HashMap" s="get(java.lang.Object)"/>
+<dm p="model.DataBase" s="getPlayers()"/>
+<dm p="model.Model" s="addPlayer(java.lang.String,java.lang.String)"/>
+<metrics cc="4" cm="6" vars="0" loc="9"/></method><method name="addPlayer(java.lang.String,java.lang.String)" s="89" e="106" n ="false" sta ="false" sync ="false" vis="public" return="model.Player"  signature="(java.lang.String,java.lang.String)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="model.Player" s="Player(java.lang.String,java.lang.String)"/>
+<dm p="java.util.HashMap" s="put(java.lang.Object,java.lang.Object)"/>
+<dm p="model.DataBase" s="getPlayers()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<metrics cc="2" cm="6" vars="1" loc="6"/></method><method name="addGame(model.Player)" s="108" e="124" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="(model.Player)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Player"/></params><dm p="model.Game" s="Game(model.Player)"/>
+<dm p="java.util.HashSet" s="contains(java.lang.Object)"/>
+<dm p="model.DataBase" s="getGames()"/>
+<dm p="java.util.HashSet" s="add(java.lang.Object)"/>
+<dm p="model.DataBase" s="getGames()"/>
+<metrics cc="3" cm="5" vars="1" loc="6"/></method><method name="deal(model.Game)" s="126" e="134" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Game"/></params><dm p="model.Game" s="deal()"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="hit(model.Game)" s="136" e="144" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Game"/></params><dm p="model.Game" s="hit()"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="isBusted(model.Game)" s="146" e="153" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(model.Game)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Game"/></params><dm p="model.Game" s="isBusted()"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="stand(model.Game)" s="155" e="164" n ="false" sta ="false" sync ="false" vis="public" return="model.Card"  signature="(model.Game)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Game"/></params><dm p="model.Game" s="stand()"/>
+<metrics cc="1" cm="5" vars="0" loc="1"/></method><method name="whoWon(model.Game)" s="166" e="173" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(model.Game)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="model.Game"/></params><dm p="model.Game" s="whoWon()"/>
+<metrics cc="1" cm="3" vars="0" loc="1"/></method><method name="getCurrentPlayer()" s="175" e="181" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="model.Player"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getFact()" s="183" e="189" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="model.DataBase" s="getFacts()"/>
+<dm p="java.lang.Math" s="random()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="getRules()" s="191" e="197" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String[]"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="model.DataBase" s="getRules()"/>
+<metrics cc="1" cm="2" vars="0" loc="1"/></method><method name="orderDrink(model.Game,java.lang.String)" s="199" e="213" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(model.Game,java.lang.String)"><params><param type="model.Game"/><param type="java.lang.String"/></params><dm p="model.Game" s="setScore(int)"/>
+<dm p="model.Game" s="getScore()"/>
+<metrics cc="2" cm="5" vars="0" loc="4"/></method><method name="getHighScoreGame()" s="215" e="229" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="model.DataBase" s="getGames()"/>
+<dm p="model.Game" s="getScore()"/>
+<dm p="model.Game" s="getScore()"/>
+<metrics cc="3" cm="2" vars="2" loc="7"/></method><method name="getHighWinsGame()" s="231" e="245" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="model.DataBase" s="getGames()"/>
+<dm p="model.Game" s="getWins()"/>
+<dm p="model.Game" s="getWins()"/>
+<metrics cc="3" cm="2" vars="2" loc="7"/></method><method name="getHighLosesGame()" s="247" e="261" n ="false" sta ="false" sync ="false" vis="public" return="model.Game"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="model.DataBase" s="getGames()"/>
+<dm p="model.Game" s="getLoses()"/>
+<dm p="model.Game" s="getLoses()"/>
+<metrics cc="3" cm="2" vars="2" loc="7"/></method>
+</type></root>

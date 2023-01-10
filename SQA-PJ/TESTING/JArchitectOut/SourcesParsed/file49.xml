@@ -1,0 +1,6 @@
+<root><type name="exceptions.CheckIntException" s="5"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<extends>
+<extend  name="java.lang.Exception"></extend></extends>
+<method name="CheckIntException(java.lang.String)" s="13" e="16" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><dm p="javax.swing.JOptionPane" s="showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

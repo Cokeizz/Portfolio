@@ -1,0 +1,170 @@
+<root><type name="utilities.SwingAnimation" s="5"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="4" >
+<method name="jLabelYUp(int,int,int,int,javax.swing.JLabel)" s="12" e="22" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><dm p="utilities.SwingAnimation$JLabelYUp" s="JLabelYUp(int,int,int,int,javax.swing.JLabel)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="6" vars="1" loc="2"/></method><method name="jLabelYDown(int,int,int,int,javax.swing.JLabel)" s="24" e="34" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><dm p="utilities.SwingAnimation$JLabelYDown" s="JLabelYDown(int,int,int,int,javax.swing.JLabel)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="6" vars="1" loc="2"/></method><method name="jLabelXLeft(int,int,int,int,javax.swing.JLabel)" s="36" e="46" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><dm p="utilities.SwingAnimation$JLabelXLeft" s="JLabelXLeft(int,int,int,int,javax.swing.JLabel)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="6" vars="1" loc="2"/></method><method name="jLabelXRight(int,int,int,int,javax.swing.JLabel)" s="48" e="58" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><dm p="utilities.SwingAnimation$JLabelXRight" s="JLabelXRight(int,int,int,int,javax.swing.JLabel)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="6" vars="1" loc="2"/></method><type name="utilities.SwingAnimation$JLabelYUp" s="60"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<interfaces>
+<interface name="java.lang.Runnable"/>
+</interfaces><field name="start" s="62" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="stop" s="63" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="delay" s="64" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="increment" s="65" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="label" s="66" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JLabelYUp(int,int,int,int,javax.swing.JLabel)" s="68" e="74" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><fm p="utilities.SwingAnimation$JLabelYUp" s="start"/>
+<fm p="utilities.SwingAnimation$JLabelYUp" s="stop"/>
+<fm p="utilities.SwingAnimation$JLabelYUp" s="delay"/>
+<fm p="utilities.SwingAnimation$JLabelYUp" s="increment"/>
+<fm p="utilities.SwingAnimation$JLabelYUp" s="label"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="run()" s="76" e="91" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="javax.swing.JComponent" s="getY()"/>
+<dm p="java.awt.Component" s="setLocation(int,int)"/>
+<dm p="javax.swing.JComponent" s="getX()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<metrics cc="5" cm="0" vars="1" loc="8"/></method>
+</type><type name="utilities.SwingAnimation$JLabelYDown" s="95"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<interfaces>
+<interface name="java.lang.Runnable"/>
+</interfaces><field name="start" s="97" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="stop" s="98" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="delay" s="99" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="increment" s="100" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="label" s="101" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JLabelYDown(int,int,int,int,javax.swing.JLabel)" s="103" e="109" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><fm p="utilities.SwingAnimation$JLabelYDown" s="start"/>
+<fm p="utilities.SwingAnimation$JLabelYDown" s="stop"/>
+<fm p="utilities.SwingAnimation$JLabelYDown" s="delay"/>
+<fm p="utilities.SwingAnimation$JLabelYDown" s="increment"/>
+<fm p="utilities.SwingAnimation$JLabelYDown" s="label"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="run()" s="111" e="126" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="javax.swing.JComponent" s="getY()"/>
+<dm p="java.awt.Component" s="setLocation(int,int)"/>
+<dm p="javax.swing.JComponent" s="getX()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<metrics cc="5" cm="0" vars="1" loc="7"/></method>
+</type><type name="utilities.SwingAnimation$JLabelXLeft" s="129"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<interfaces>
+<interface name="java.lang.Runnable"/>
+</interfaces><field name="start" s="131" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="stop" s="132" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="delay" s="133" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="increment" s="134" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="label" s="135" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JLabelXLeft(int,int,int,int,javax.swing.JLabel)" s="137" e="143" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><fm p="utilities.SwingAnimation$JLabelXLeft" s="start"/>
+<fm p="utilities.SwingAnimation$JLabelXLeft" s="stop"/>
+<fm p="utilities.SwingAnimation$JLabelXLeft" s="delay"/>
+<fm p="utilities.SwingAnimation$JLabelXLeft" s="increment"/>
+<fm p="utilities.SwingAnimation$JLabelXLeft" s="label"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="run()" s="145" e="160" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="javax.swing.JComponent" s="getX()"/>
+<dm p="java.awt.Component" s="setLocation(int,int)"/>
+<dm p="javax.swing.JComponent" s="getY()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<metrics cc="5" cm="0" vars="1" loc="8"/></method>
+</type><type name="utilities.SwingAnimation$JLabelXRight" s="164"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<interfaces>
+<interface name="java.lang.Runnable"/>
+</interfaces><field name="start" s="166" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="stop" s="167" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="delay" s="168" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="increment" s="169" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="label" s="170" type="javax.swing.JLabel" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JLabelXRight(int,int,int,int,javax.swing.JLabel)" s="172" e="178" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,int,javax.swing.JLabel)"><params><param type="int"/><param type="int"/><param type="int"/><param type="int"/><param type="javax.swing.JLabel"/></params><fm p="utilities.SwingAnimation$JLabelXRight" s="start"/>
+<fm p="utilities.SwingAnimation$JLabelXRight" s="stop"/>
+<fm p="utilities.SwingAnimation$JLabelXRight" s="delay"/>
+<fm p="utilities.SwingAnimation$JLabelXRight" s="increment"/>
+<fm p="utilities.SwingAnimation$JLabelXRight" s="label"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="run()" s="180" e="195" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="javax.swing.JComponent" s="getX()"/>
+<dm p="java.awt.Component" s="setLocation(int,int)"/>
+<dm p="javax.swing.JComponent" s="getY()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<metrics cc="5" cm="0" vars="1" loc="8"/></method>
+</type><method name="jLabelXSideAndReturn(int,int,int,java.util.ArrayList,boolean)" s="198" e="200" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,java.util.ArrayList,boolean)"><params><param type="int"/><param type="int"/><param type="int"/><param type="java.util.ArrayList"/><param type="boolean"/></params><dm p="java.lang.Thread" s="start()"/>
+<dm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="JLabelXSideAndReturn(int,int,int,boolean,java.util.ArrayList)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><type name="utilities.SwingAnimation$JLabelXSideAndReturn" s="202"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<interfaces>
+<interface name="java.lang.Runnable"/>
+</interfaces><field name="stop" s="204" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="delay" s="205" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="increment" s="206" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="cardsArray" s="207" type="java.util.ArrayList" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="startToRight" s="208" type="boolean" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="JLabelXSideAndReturn(int,int,int,boolean,java.util.ArrayList)" s="210" e="216" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,int,int,boolean,java.util.ArrayList)"><params><param type="int"/><param type="int"/><param type="int"/><param type="boolean"/><param type="java.util.ArrayList"/></params><fm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="stop"/>
+<fm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="delay"/>
+<fm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="increment"/>
+<fm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="startToRight"/>
+<fm p="utilities.SwingAnimation$JLabelXSideAndReturn" s="cardsArray"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="run()" s="218" e="250" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.lang.Thread" s="start()"/>
+<dm p="utilities.SwingAnimation$JLabelXRight" s="JLabelXRight(int,int,int,int,javax.swing.JLabel)"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.util.ArrayList" s="size()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<dm p="java.lang.Thread" s="start()"/>
+<dm p="utilities.SwingAnimation$JLabelXLeft" s="JLabelXLeft(int,int,int,int,javax.swing.JLabel)"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<dm p="java.lang.Thread" s="start()"/>
+<dm p="utilities.SwingAnimation$JLabelXLeft" s="JLabelXLeft(int,int,int,int,javax.swing.JLabel)"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.util.ArrayList" s="size()"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="getMessage()"/>
+<dm p="java.lang.Thread" s="start()"/>
+<dm p="utilities.SwingAnimation$JLabelXRight" s="JLabelXRight(int,int,int,int,javax.swing.JLabel)"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<f p="java.awt.Point" s="x"/>
+<dm p="java.awt.Component" s="getLocation()"/>
+<metrics cc="10" cm="0" vars="0" loc="18"/></method>
+</type>
+</type></root>
