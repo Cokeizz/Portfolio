@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.quote {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+blockquote {
+	font-size: 1.3em;
+}
+
+blockquote::before {
+	content: "\201C";
+	font-size: 5em;
+	line-height: 1;
+	font-family: Georgia;
+	position: relative;
+	top: 18px;
+	color: rgb(0, 0, 0);
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #F9E79F;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "image-box" "text-box";
+	row-gap: 50px;
+	column-gap: 50px;
+}
+
+@media screen and (min-width:850px) {
+	.main-container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "image-box text-box";
+	}
+}
+
+.image-box {
+	grid-area: image-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	padding: 70px 0;
+}
+
+.image-box img {
+	width: 100%;
+	max-width: 450px;
+}
+
+.text-box {
+	grid-area: text-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 100%;
+	border-radius: 1.5rem;
+}
+
+.card p {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	margin-bottom: 10px;
+	border-radius: 1rem;
+}
+
+.card button {
+	border-radius: 1rem;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.card input {
+	margin-bottom: 40px;
+	height: 45px;
+	border-radius: 1rem;
+}
+
+.warning {
+	position: relative;
+	margin-top: -36px;
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
